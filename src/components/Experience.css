@@ -1,0 +1,47 @@
+.experience__content {
+    display: flex;
+    gap: 20px;
+}
+
+.experience__col {
+    flex: 1;
+    padding: 30px;
+    background-color: #2C2C6C;
+    border-radius: 20px;
+}
+
+.experience__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.experience__item {
+    margin: 10px 0;
+    width: calc(100% / 2);
+    position: relative;
+}
+
+.experience__item p {
+    padding-left: 25px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.experience__item p > span {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.experience__item-icon {
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+
+.experience__item-icon > svg {
+    fill: #fff;
+}

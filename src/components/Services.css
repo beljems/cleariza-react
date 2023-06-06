@@ -1,0 +1,35 @@
+.services__content {
+    display: flex;
+    gap: 20px;
+}
+
+.services__content .heading-wrap {
+    margin-bottom: 0;
+    padding: 20px 0;
+    background-color: #59BCF9;
+    border-radius: 0 0 30px 30px;
+}
+
+.services__content .heading-wrap .heading {
+    font-weight: 500;
+    color: #000;
+}
+
+.services__col {
+    flex: 1;
+    background-color: #2C2C6C;
+    border-radius: 20px;
+}
+
+.services__list {
+    display: block;
+    list-style: none;
+    padding: 20px 30px;
+}
+
+.services__item {
+    display: block;
+    margin: 15px 0;
+    line-height: 1.5;
+    color: #fff;
+}

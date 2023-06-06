@@ -1,0 +1,52 @@
+.header {
+    padding-top: 100px;
+    color: #fff;
+    text-align: center;
+}
+
+.header__links {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.header__name {
+    margin: 12px 0 8px;
+}
+
+.header__welcome {
+    font-weight: 500;
+}   
+
+.header__position {
+    opacity: .8;
+}   
+
+.header__image {
+    display: block;
+    margin: 50px auto;
+    max-width: 350px;
+    height: 400px;
+    width: 100%;
+    border-radius: 170px 170px 0 0;
+    overflow: hidden;
+}
+
+.header__image > img {
+    display: block;
+    width: 100%;
+}
+
+.header__scroll {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #59BCF9;
+    cursor: pointer;
+    text-orientation: sideways;
+    writing-mode: vertical-rl;
+    text-decoration: none;
+    z-index: 1;
+}

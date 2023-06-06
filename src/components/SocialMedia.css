@@ -1,0 +1,31 @@
+.social-media {
+    position: fixed;
+    left: 50px;
+    bottom: 50px;
+    z-index: 1;
+}
+
+.social-media__list {
+    list-style: none;
+}
+
+.social-media__list::after {
+    content: '';
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 1px;
+    height: 30px;
+    background-color: #59BCF9;
+}
+
+.social-media__item {
+    display: block;
+    margin: 10px 0;
+    width: 15px;
+    height: 15px;
+}
+
+.social-media__item svg {
+    fill: #59BCF9;
+}

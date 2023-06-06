@@ -1,0 +1,26 @@
+.heading-wrap {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.heading {
+    font-size: 30px;
+    line-height: 1.5;
+    color: #59BCF9;
+    letter-spacing: .03em;
+}
+
+.heading--medium {
+    font-size: 24px;
+}
+
+.heading--small {
+    font-size: 18px;
+}
+
+.heading span {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}

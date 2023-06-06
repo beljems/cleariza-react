@@ -1,0 +1,30 @@
+.about__content {
+    display: flex;
+    align-items: center;
+}
+
+.about__content p {
+    line-height: 1.5;
+    color: #fff;
+}
+
+.about__col {
+    flex: 1;
+    padding: 0 30px;
+}
+
+.about__col--image > img {
+    margin: 0 auto;
+    height: 450px;
+    object-fit: contain;
+    border-radius: 10px;
+    transform: rotate(3deg);
+}
+
+.about__col-button {
+    margin-top: 30px;
+}
+
+.about__col-button .link {
+    margin-left: 0;
+}

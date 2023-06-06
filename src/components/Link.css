@@ -1,0 +1,38 @@
+.link {
+    display: inline-block;
+    margin: 8px 10px;
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #59BCF9;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 769px) {
+    .link:hover {
+        text-decoration: underline;
+    }
+}
+
+.link--active {
+    text-decoration: underline;
+    opacity: .7;
+}
+
+.link--icon {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.link.link--primary {
+    background-color: #59BCF9;
+    color: #393333;
+    text-decoration: none;
+}
+
+.link.link--outlined {
+    background-color: transparent;
+    text-decoration: none;
+    border: 1px solid #59BCF9;
+}
