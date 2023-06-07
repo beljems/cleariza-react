@@ -4,21 +4,44 @@
     margin: 0 -20px;
 }
 
+@media only screen and (max-width: 768px) {
+    .portfolio__list {
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0 20px;
+    }
+}
+
 .portfolio__item {
     width: calc((100% / 3) - 20px);
     margin: 10px;
     padding: 20px;
-    background-color: #2C2C6C;
+    background-color: var(--color-background);
     border-radius: 20px; 
 }
 
+@media only screen and (max-width: 768px) {
+    .portfolio__item {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
 .portfolio__image {
+    height: 250px;
     border-radius: 20px; 
     overflow: hidden;
+}
+
+.portfolio__image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .portfolio__title {
     margin: 20px 0;
     line-height: 1.5;
-    color: #fff;
+    color: var(--color-white);
 }

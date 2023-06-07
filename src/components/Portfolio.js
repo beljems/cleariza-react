@@ -92,7 +92,7 @@ const Portfolio = () => {
     ];
 
     return (
-        <section className='portfolio section-padding'>
+        <section className='portfolio section-padding' id="portfolio">
             <div className='container'>
                 <Heading heading='Portfolio' subheading='My Recent Work'/>
                 <div className='portfolio__list'>
@@ -106,7 +106,7 @@ const Portfolio = () => {
                             {item.links.map((btn, subkey) => (
                             <Link 
                                 key={subkey} 
-                                href={btn.url} 
+                                link={btn.url} 
                                 label={btn.label} 
                                 theme={`${subkey === 0 ? 'outlined' : 'primary'}`}
                                 isTargetBlank={true}

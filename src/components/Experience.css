@@ -3,11 +3,25 @@
     gap: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+    .experience__content {
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+}
+
 .experience__col {
     flex: 1;
     padding: 30px;
-    background-color: #2C2C6C;
+    background-color: var(--color-background);
     border-radius: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .experience__col {
+        flex: none;
+        width: 100%;
+    }
 }
 
 .experience__list {
@@ -27,7 +41,7 @@
     padding-left: 25px;
     font-weight: 600;
     line-height: 1.5;
-    color: #fff;
+    color: var(--color-white);
 }
 
 .experience__item p > span {
@@ -43,5 +57,5 @@
 }
 
 .experience__item-icon > svg {
-    fill: #fff;
+    fill: var(--color-white);
 }

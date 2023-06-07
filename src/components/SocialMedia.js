@@ -7,10 +7,18 @@ const SocialMedia = () => {
         <div className="social-media">
             <ul className="social-media__list">
                 <li className="social-media__item">
-                    <Link iconComponent={<BsLinkedin/>} isTargetBlank={true}/>
+                    <Link 
+                        iconComponent={<BsLinkedin/>} 
+                        isTargetBlank={true}
+                        link={''}
+                    />
                 </li>
                 <li className="social-media__item">
-                    <Link iconComponent={<BsGithub/>} isTargetBlank={true}/>
+                    <Link 
+                        iconComponent={<BsGithub/>} 
+                        isTargetBlank={true}
+                        link={''}
+                    />
                 </li>
             </ul>
         </div>

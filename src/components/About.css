@@ -3,14 +3,29 @@
     align-items: center;
 }
 
+@media only screen and (max-width: 768px) {
+    .about__content {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
 .about__content p {
     line-height: 1.5;
-    color: #fff;
+    color: var(--color-white);
 }
 
 .about__col {
     flex: 1;
     padding: 0 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .about__col {
+        width: 100%;
+        flex: none;
+        padding: 20px;
+    }
 }
 
 .about__col--image > img {

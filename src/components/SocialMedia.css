@@ -2,7 +2,14 @@
     position: fixed;
     left: 50px;
     bottom: 50px;
-    z-index: 1;
+    z-index: 9;
+}
+
+@media only screen and (max-width: 768px) {
+    .social-media {
+        left: 20px;
+        bottom: 20px;
+    }
 }
 
 .social-media__list {
@@ -16,7 +23,7 @@
     margin: 0 auto;
     width: 1px;
     height: 30px;
-    background-color: #59BCF9;
+    background-color: var(--color-sky);
 }
 
 .social-media__item {
@@ -27,5 +34,5 @@
 }
 
 .social-media__item svg {
-    fill: #59BCF9;
+    fill: var(--color-sky);
 }

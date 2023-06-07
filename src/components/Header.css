@@ -1,7 +1,13 @@
 .header {
     padding-top: 100px;
-    color: #fff;
+    color: var(--color-white);
     text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        padding: 50px 20px 0; 
+    }
 }
 
 .header__links {
@@ -43,10 +49,18 @@
     bottom: 50px;
     font-size: 13px;
     font-weight: 500;
-    color: #59BCF9;
+    color: var(--color-sky);
     cursor: pointer;
     text-orientation: sideways;
     writing-mode: vertical-rl;
     text-decoration: none;
     z-index: 1;
+    transition: opacity .25s ease;
+}
+
+@media only screen and (max-width: 768px) {
+    .header__scroll {
+        right: 20px;
+        bottom: 20px;
+    }
 }

@@ -8,10 +8,14 @@ const Menu = () => {
     const handleClick = (e) => {
         e.preventDefault();
         const text = e.currentTarget.innerText;
+        const href = e.currentTarget.getAttribute('href');
         isActive !== text && setIsActive(text);
+        document.querySelector(href).scrollIntoView({
+            behavior: 'smooth'
+        });
     }
 
-    const list = ['Home', 'About', 'Experience', 'Services', 'Portfolio', 'Contact'];
+    const list = ['Home', 'About', 'Experience', 'Services', 'Portfolio', 'Reviews', 'Contact'];
 
     return (
         <nav className="menu">
@@ -19,6 +23,7 @@ const Menu = () => {
                 <Link 
                     key={key} 
                     label={item} 
+                    link={`#${item.toLocaleLowerCase()}`}
                     isActive={isActive === item} 
                     onClick={(e) => handleClick(e)}
                 />

@@ -1,4 +1,18 @@
 .menu {
     display: flex;
     justify-content: center;
+    background-color: var(--color-background);
+}
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        flex-wrap: wrap;
+        padding: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .menu .link {
+        padding: 0;
+    }
 }
