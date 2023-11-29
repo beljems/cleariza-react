@@ -30,15 +30,15 @@ const Header = () => {
     return (
         <header ref={ref} className="header">
             <span className='header__welcome'>Hello I'm</span>
-            <h1 className='header__name'>Clariza Look</h1>
-            <p className='header__position'>DevOps Engineer</p>
+            <h1 className='header__name'>Belle Bantilan</h1>
+            <p className='header__position'>Frontend Engineer</p>
             <div className='header__links'>
                 <Link label='Download CV' theme="outlined"/>
                 <Link label="Let's Talk" theme="primary"/>
             </div>
 
             <div className='header__image'>
-                <img src={image} alt='Clariza Look profile'/>
+                <img src={image} alt='Belle Bantilan profile'/>
             </div>
 
             <span

@@ -7,13 +7,13 @@ const Contact = () => {
     const boxes = [
         {
             name: 'Email',
-            user: 'contact@clariza.com',
-            url: 'mailto:contact@clariza.com',
+            user: 'bellejemabantilan13@gmail.com',
+            url: 'mailto:bellejemabantilan13@gmail.com',
             icon: <BsFillEnvelopeFill/>
         },
         {
             name: 'Location',
-            user: 'Perth, Western Australia',
+            user: 'Cebu City, Philippines',
             url: '',
             icon: <BsFillPinMapFill/>
         }
